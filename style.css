@@ -1,0 +1,47 @@
+.container{
+	background-color: #EFE7E5;
+}
+
+.jumbotron{
+	margin-left: 15%;
+	text-decoration: none;
+	/*list-style: none;*/
+}
+ nav{
+ 	background-color:#5F4D48 ;
+ 	height: 70px;
+ 	width: 100%
+ }
+label.logo{
+	color: white;
+	font-size: 30px;
+	line-height: 70px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+
+nav ul{
+	float: right;
+	margin-right: 15px;
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 50px;
+	margin: 0 4px;
+
+}
+
+nav ul li a{
+	color: white;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-top: 10px;
+
+}
+
+nav ul li a:hover{
+   color: red ;
+	transition: 2s;
+}
